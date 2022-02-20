@@ -1,0 +1,11 @@
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\bin\Debug\Restaurante.exe.config
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.vbprojResolveAssemblyReference.cache
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.Pedidos.resources
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.Resources.resources
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.vbproj.GenerateResource.Cache
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.xml
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\bin\Debug\Restaurante.exe
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\bin\Debug\Restaurante.pdb
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\bin\Debug\Restaurante.xml
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.exe
+c:\users\alejandro\documents\visual studio 2015\Projects\Restaurante\Restaurante\obj\Debug\Restaurante.pdb

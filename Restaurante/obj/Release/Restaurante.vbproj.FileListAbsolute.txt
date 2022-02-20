@@ -1,0 +1,10 @@
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\bin\Release\Restaurante.exe.config
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\bin\Release\Restaurante.exe
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\bin\Release\Restaurante.pdb
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\bin\Release\Restaurante.xml
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.Pedidos.resources
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.Resources.resources
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.vbproj.GenerateResource.Cache
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.exe
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.xml
+c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.pdb
