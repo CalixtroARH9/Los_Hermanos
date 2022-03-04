@@ -8,3 +8,16 @@ c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante
 c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.exe
 c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.xml
 c:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Restaurante\obj\Release\Restaurante.pdb
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\bin\Release\Restaurante.exe.config
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\bin\Release\Restaurante.exe
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\bin\Release\Restaurante.pdb
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\bin\Release\Restaurante.xml
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.Pedidos.resources
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.Login.resources
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.Resources.resources
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.vbproj.GenerateResource.cache
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.vbproj.CoreCompileInputs.cache
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.exe
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.xml
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.pdb
