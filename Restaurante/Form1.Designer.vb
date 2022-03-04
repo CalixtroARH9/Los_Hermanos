@@ -28,6 +28,17 @@ Partial Class Pedidos
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Pedidos))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
+        Me.pnlCreditos = New System.Windows.Forms.Panel()
+        Me.Panel6 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Label13 = New System.Windows.Forms.Label()
+        Me.Label12 = New System.Windows.Forms.Label()
+        Me.Label11 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Label9 = New System.Windows.Forms.Label()
+        Me.Label8 = New System.Windows.Forms.Label()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.Label6 = New System.Windows.Forms.Label()
         Me.dgAlimentos = New System.Windows.Forms.ListBox()
         Me.Panel4 = New System.Windows.Forms.Panel()
         Me.lblt = New System.Windows.Forms.Label()
@@ -42,6 +53,7 @@ Partial Class Pedidos
         Me.lbAlimentos = New System.Windows.Forms.ListBox()
         Me.Panel3 = New System.Windows.Forms.Panel()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.Button1 = New System.Windows.Forms.Button()
         Me.Label5 = New System.Windows.Forms.Label()
         Me.cbMesa = New System.Windows.Forms.ComboBox()
         Me.GroupBox6 = New System.Windows.Forms.GroupBox()
@@ -55,21 +67,13 @@ Partial Class Pedidos
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.il = New System.Windows.Forms.ImageList(Me.components)
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.pnlCreditos = New System.Windows.Forms.Panel()
-        Me.Label6 = New System.Windows.Forms.Label()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.Label9 = New System.Windows.Forms.Label()
-        Me.Label10 = New System.Windows.Forms.Label()
-        Me.Label11 = New System.Windows.Forms.Label()
-        Me.Label12 = New System.Windows.Forms.Label()
-        Me.Label13 = New System.Windows.Forms.Label()
-        Me.Panel6 = New System.Windows.Forms.Panel()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
+        Me.lbltimer = New System.Windows.Forms.Label()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.pnlCreditos.SuspendLayout()
+        Me.Panel6.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel4.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox8.SuspendLayout()
@@ -82,9 +86,6 @@ Partial Class Pedidos
         Me.GroupBox4.SuspendLayout()
         Me.Panel2.SuspendLayout()
         Me.Panel1.SuspendLayout()
-        Me.pnlCreditos.SuspendLayout()
-        Me.Panel6.SuspendLayout()
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GroupBox1
@@ -116,6 +117,134 @@ Partial Class Pedidos
         Me.GroupBox2.TabIndex = 4
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Reporte del envío"
+        '
+        'pnlCreditos
+        '
+        Me.pnlCreditos.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
+        Me.pnlCreditos.Controls.Add(Me.Panel6)
+        Me.pnlCreditos.Controls.Add(Me.Label13)
+        Me.pnlCreditos.Controls.Add(Me.Label12)
+        Me.pnlCreditos.Controls.Add(Me.Label11)
+        Me.pnlCreditos.Controls.Add(Me.Label10)
+        Me.pnlCreditos.Controls.Add(Me.Label9)
+        Me.pnlCreditos.Controls.Add(Me.Label8)
+        Me.pnlCreditos.Controls.Add(Me.Label7)
+        Me.pnlCreditos.Controls.Add(Me.Label6)
+        Me.pnlCreditos.Location = New System.Drawing.Point(15, 50)
+        Me.pnlCreditos.Name = "pnlCreditos"
+        Me.pnlCreditos.Size = New System.Drawing.Size(467, 362)
+        Me.pnlCreditos.TabIndex = 12
+        Me.pnlCreditos.Visible = False
+        '
+        'Panel6
+        '
+        Me.Panel6.Controls.Add(Me.PictureBox1)
+        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.Panel6.Location = New System.Drawing.Point(0, 224)
+        Me.Panel6.Name = "Panel6"
+        Me.Panel6.Size = New System.Drawing.Size(467, 138)
+        Me.Panel6.TabIndex = 21
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.Restaurante.My.Resources.Resources.CNCI
+        Me.PictureBox1.Location = New System.Drawing.Point(135, 14)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(197, 111)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 20
+        Me.PictureBox1.TabStop = False
+        '
+        'Label13
+        '
+        Me.Label13.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label13.Location = New System.Drawing.Point(0, 196)
+        Me.Label13.Name = "Label13"
+        Me.Label13.Size = New System.Drawing.Size(467, 28)
+        Me.Label13.TabIndex = 19
+        Me.Label13.Text = "al052178@cncivirtual.mx"
+        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label12
+        '
+        Me.Label12.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label12.Location = New System.Drawing.Point(0, 168)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(467, 28)
+        Me.Label12.TabIndex = 18
+        Me.Label12.Text = "M2 Diseño centrado en el usuario FIN A"
+        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label11
+        '
+        Me.Label11.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label11.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label11.Location = New System.Drawing.Point(0, 140)
+        Me.Label11.Name = "Label11"
+        Me.Label11.Size = New System.Drawing.Size(467, 28)
+        Me.Label11.TabIndex = 17
+        Me.Label11.Text = "Materia"
+        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label10
+        '
+        Me.Label10.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label10.Location = New System.Drawing.Point(0, 112)
+        Me.Label10.Name = "Label10"
+        Me.Label10.Size = New System.Drawing.Size(467, 28)
+        Me.Label10.TabIndex = 16
+        Me.Label10.Text = "Ing. en Tecnologías Computacionales"
+        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label9
+        '
+        Me.Label9.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label9.Location = New System.Drawing.Point(0, 84)
+        Me.Label9.Name = "Label9"
+        Me.Label9.Size = New System.Drawing.Size(467, 28)
+        Me.Label9.TabIndex = 15
+        Me.Label9.Text = "al052178"
+        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label8
+        '
+        Me.Label8.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label8.Location = New System.Drawing.Point(0, 56)
+        Me.Label8.Name = "Label8"
+        Me.Label8.Size = New System.Drawing.Size(467, 28)
+        Me.Label8.TabIndex = 14
+        Me.Label8.Text = "Matricula"
+        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label7
+        '
+        Me.Label7.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(0, 28)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(467, 28)
+        Me.Label7.TabIndex = 13
+        Me.Label7.Text = "Calixtro Alejandro Romo Hernández"
+        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'Label6
+        '
+        Me.Label6.Dock = System.Windows.Forms.DockStyle.Top
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.ForeColor = System.Drawing.Color.DarkGray
+        Me.Label6.Location = New System.Drawing.Point(0, 0)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(467, 28)
+        Me.Label6.TabIndex = 12
+        Me.Label6.Text = "Alumno"
+        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'dgAlimentos
         '
@@ -275,6 +404,7 @@ Partial Class Pedidos
         '
         'GroupBox3
         '
+        Me.GroupBox3.Controls.Add(Me.lbltimer)
         Me.GroupBox3.Controls.Add(Me.Button1)
         Me.GroupBox3.Controls.Add(Me.Label5)
         Me.GroupBox3.Controls.Add(Me.cbMesa)
@@ -286,6 +416,20 @@ Partial Class Pedidos
         Me.GroupBox3.TabIndex = 7
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Número de mesa"
+        '
+        'Button1
+        '
+        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
+        Me.Button1.Dock = System.Windows.Forms.DockStyle.Right
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.Location = New System.Drawing.Point(542, 16)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(169, 36)
+        Me.Button1.TabIndex = 13
+        Me.Button1.Text = "Creditos"
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label5
         '
@@ -435,161 +579,18 @@ Partial Class Pedidos
         Me.il.ImageSize = New System.Drawing.Size(16, 16)
         Me.il.TransparentColor = System.Drawing.Color.Transparent
         '
-        'Button1
+        'Timer1
         '
-        Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.Button1.Dock = System.Windows.Forms.DockStyle.Right
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(542, 16)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(169, 36)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Creditos"
-        Me.Button1.UseVisualStyleBackColor = False
         '
-        'pnlCreditos
+        'lbltimer
         '
-        Me.pnlCreditos.BackColor = System.Drawing.Color.FromArgb(CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer), CType(CType(20, Byte), Integer))
-        Me.pnlCreditos.Controls.Add(Me.Panel6)
-        Me.pnlCreditos.Controls.Add(Me.Label13)
-        Me.pnlCreditos.Controls.Add(Me.Label12)
-        Me.pnlCreditos.Controls.Add(Me.Label11)
-        Me.pnlCreditos.Controls.Add(Me.Label10)
-        Me.pnlCreditos.Controls.Add(Me.Label9)
-        Me.pnlCreditos.Controls.Add(Me.Label8)
-        Me.pnlCreditos.Controls.Add(Me.Label7)
-        Me.pnlCreditos.Controls.Add(Me.Label6)
-        Me.pnlCreditos.Location = New System.Drawing.Point(15, 50)
-        Me.pnlCreditos.Name = "pnlCreditos"
-        Me.pnlCreditos.Size = New System.Drawing.Size(467, 362)
-        Me.pnlCreditos.TabIndex = 12
-        Me.pnlCreditos.Visible = False
-        '
-        'Label6
-        '
-        Me.Label6.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label6.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label6.Location = New System.Drawing.Point(0, 0)
-        Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(467, 28)
-        Me.Label6.TabIndex = 12
-        Me.Label6.Text = "Alumno"
-        Me.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label7
-        '
-        Me.Label7.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label7.Location = New System.Drawing.Point(0, 28)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(467, 28)
-        Me.Label7.TabIndex = 13
-        Me.Label7.Text = "Calixtro Alejandro Romo Hernández"
-        Me.Label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label8
-        '
-        Me.Label8.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label8.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label8.Location = New System.Drawing.Point(0, 56)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(467, 28)
-        Me.Label8.TabIndex = 14
-        Me.Label8.Text = "Matricula"
-        Me.Label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label9
-        '
-        Me.Label9.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label9.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label9.Location = New System.Drawing.Point(0, 84)
-        Me.Label9.Name = "Label9"
-        Me.Label9.Size = New System.Drawing.Size(467, 28)
-        Me.Label9.TabIndex = 15
-        Me.Label9.Text = "al052178"
-        Me.Label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label10
-        '
-        Me.Label10.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label10.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label10.Location = New System.Drawing.Point(0, 112)
-        Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(467, 28)
-        Me.Label10.TabIndex = 16
-        Me.Label10.Text = "Ing. en Tecnologías Computacionales"
-        Me.Label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label11
-        '
-        Me.Label11.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label11.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label11.ForeColor = System.Drawing.Color.DarkGray
-        Me.Label11.Location = New System.Drawing.Point(0, 140)
-        Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(467, 28)
-        Me.Label11.TabIndex = 17
-        Me.Label11.Text = "Materia"
-        Me.Label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label12
-        '
-        Me.Label12.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label12.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label12.Location = New System.Drawing.Point(0, 168)
-        Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(467, 28)
-        Me.Label12.TabIndex = 18
-        Me.Label12.Text = "M2 Diseño centrado en el usuario FIN A"
-        Me.Label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Label13
-        '
-        Me.Label13.Dock = System.Windows.Forms.DockStyle.Top
-        Me.Label13.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label13.Location = New System.Drawing.Point(0, 196)
-        Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(467, 28)
-        Me.Label13.TabIndex = 19
-        Me.Label13.Text = "al052178@cncivirtual.mx"
-        Me.Label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
-        '
-        'Panel6
-        '
-        Me.Panel6.Controls.Add(Me.Button3)
-        Me.Panel6.Controls.Add(Me.PictureBox1)
-        Me.Panel6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.Panel6.Location = New System.Drawing.Point(0, 224)
-        Me.Panel6.Name = "Panel6"
-        Me.Panel6.Size = New System.Drawing.Size(467, 138)
-        Me.Panel6.TabIndex = 21
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.Maroon
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.Black
-        Me.Button3.Location = New System.Drawing.Point(427, 104)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(37, 31)
-        Me.Button3.TabIndex = 21
-        Me.Button3.Text = "X"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.Restaurante.My.Resources.Resources.CNCI
-        Me.PictureBox1.Location = New System.Drawing.Point(135, 14)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(197, 111)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox1.TabIndex = 20
-        Me.PictureBox1.TabStop = False
+        Me.lbltimer.Font = New System.Drawing.Font("Microsoft Sans Serif", 16.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbltimer.Location = New System.Drawing.Point(402, 18)
+        Me.lbltimer.Name = "lbltimer"
+        Me.lbltimer.Size = New System.Drawing.Size(134, 28)
+        Me.lbltimer.TabIndex = 16
+        Me.lbltimer.Text = "0"
+        Me.lbltimer.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'Pedidos
         '
@@ -605,6 +606,9 @@ Partial Class Pedidos
         Me.Text = "Restaurante ""Los Hermanos"""
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
+        Me.pnlCreditos.ResumeLayout(False)
+        Me.Panel6.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel4.ResumeLayout(False)
         Me.Panel4.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
@@ -622,9 +626,6 @@ Partial Class Pedidos
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
         Me.Panel1.ResumeLayout(False)
-        Me.pnlCreditos.ResumeLayout(False)
-        Me.Panel6.ResumeLayout(False)
-        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -670,5 +671,6 @@ Partial Class Pedidos
     Friend WithEvents Label8 As Label
     Friend WithEvents Label7 As Label
     Friend WithEvents Label6 As Label
-    Friend WithEvents Button3 As Button
+    Friend WithEvents Timer1 As Timer
+    Friend WithEvents lbltimer As Label
 End Class

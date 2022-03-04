@@ -4,8 +4,12 @@ Imports System.Drawing.Bitmap
 
 Public Class Pedidos
     'Public Mesero As Int32 = 0
+    Dim second As Integer
+
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        lbltimer.Text = DateTime.Now.ToString
+
         dgAlimentos.Items.Clear()
         dtAlimentos.RowTemplate.Height = 150
         dtAlimentos.ColumnHeadersHeight = 150
@@ -202,11 +206,25 @@ Public Class Pedidos
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
-        pnlCreditos.Visible = True
-        pnlCreditos.BringToFront()
+        Timer1.Enabled = True
+        Timer1.Interval = 1000
+        Timer1.Start()
     End Sub
 
-    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs)
         pnlCreditos.Visible = False
     End Sub
+
+    Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
+        pnlCreditos.Visible = True
+
+        second = second + 1
+        If second >= 10 Then
+            Timer1.Stop() 'Timer stops functioning
+            pnlCreditos.Visible = False
+            MsgBox("Timer detenido...")
+        End If
+
+    End Sub
+
 End Class

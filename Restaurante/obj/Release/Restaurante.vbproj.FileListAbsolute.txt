@@ -21,3 +21,4 @@ C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermano
 C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.exe
 C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.xml
 C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.pdb
+C:\Users\Alejandro\Documents\Visual Studio 2015\Projects\Restaurante\Los_Hermanos\Restaurante\obj\Release\Restaurante.vbproj.AssemblyReference.cache
