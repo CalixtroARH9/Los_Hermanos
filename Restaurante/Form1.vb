@@ -206,6 +206,8 @@ Public Class Pedidos
     End Sub
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        second = 0
+
         Timer1.Enabled = True
         Timer1.Interval = 1000
         Timer1.Start()
